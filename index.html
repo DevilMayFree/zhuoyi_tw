@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Webpixels">
+    <title>卓逸投資股份有限公司</title>
+    <!-- Preloader -->
+    <style>
+        @keyframes hidePreloader {
+            0% {
+                width: 100%;
+                height: 100%;
+            }
+
+            100% {
+                width: 0;
+                height: 0;
+            }
+        }
+
+        body>div.preloader {
+            position: fixed;
+            background: white;
+            width: 100%;
+            height: 100%;
+            z-index: 1071;
+            opacity: 0;
+            transition: opacity .5s ease;
+            overflow: hidden;
+            pointer-events: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        body:not(.loaded)>div.preloader {
+            opacity: 1;
+        }
+
+        body:not(.loaded) {
+            overflow: hidden;
+        }
+
+        body.loaded>div.preloader {
+            animation: hidePreloader .5s linear .5s forwards;
+        }
+    </style>
+    <script>
+        window.addEventListener("load", function() {
+            setTimeout(function() {
+                document.querySelector('body').classList.add('loaded');
+            }, 300);
+        });
+    </script>
+    <!-- Favicon -->
+    <link rel="icon" href="assets/img/brand/favicon.png" type="image/png"><!-- Font Awesome -->
+    <link rel="stylesheet" href="assets/libs/@fortawesome/fontawesome-free/css/all.min.css">
+    <!-- Quick CSS -->
+    <link rel="stylesheet" href="assets/css/quick-website.css" id="stylesheet">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="spinner-border text-primary" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <div class="modal fade" tabindex="-1" role="dialog" id="modal-cookies" data-backdrop="false" aria-labelledby="modal-cookies" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-aside left-4 right-4 bottom-4">
+            <div class="modal-content bg-dark-dark">
+                <div class="modal-body">
+                    <!-- Text -->
+                    <p class="text-sm text-white mb-3">
+                        我們使用 cookie 以便我們的網站正常使用。使用我們的網站，即表示您同意我們使用 cookie。
+                    </p>
+                    <!-- Buttons -->
+                    <button type="button" class="btn btn-sm btn-primary mr-2" data-dismiss="modal">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <!-- Brand -->
+            <a class="navbar-brand" href="index.html">
+                <img alt="Image placeholder" src="assets/img/brand/dark.svg" id="navbar-logo">
+            </a>
+            <!-- Toggler -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Collapse -->
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mt-4 mt-lg-0 ml-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#first">首頁</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#second">卓越優勢</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#three">企業理念</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#four">合作銀行</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#five">聯絡我們</a>
+                    </li>
+                </ul>
+                <!-- Button -->
+                <!--<a class="navbar-btn btn btn-sm btn-primary d-none d-lg-inline-block ml-3" href="https://github.com/webpixels/quick-website-ui-kit-demo/archive/master.zip">
+                    Download Free
+                </a>-->
+                <!-- Mobile button -->
+                <!--<div class="d-lg-none text-center">
+                    <a href="https://webpixels.io/themes/quick-website-ui-kit" class="btn btn-block btn-sm btn-warning">See more details</a>
+                </div>-->
+            </div>
+        </div>
+    </nav>
+    <!-- Main content -->
+    <section class="slice py-7" id="first">
+        <div class="container">
+            <div class="row row-grid align-items-center">
+                <div class="col-12 col-md-5 col-lg-6 order-md-2 text-center">
+                    <!-- Image -->
+                    <figure class="w-100">
+                        <img alt="Image placeholder" src="assets/img/my/1.png" class="img-fluid mw-md-120">
+                    </figure>
+                </div>
+                <div class="col-12 col-md-7 col-lg-6 order-md-1 pr-md-5">
+                    <!-- Heading -->
+                    <h1 class="display-4 text-center text-md-left mb-3">
+                        卓逸投資股份有限公司
+                        <!--<strong class="text-primary">online business</strong>-->
+                    </h1>
+                    <!-- Text -->
+                    <p class="lead text-center text-md-left text-muted">
+                        提供增值，創造價值
+                    </p>
+                    <!-- Buttons -->
+                    <div class="text-center text-md-left mt-5">
+                        <a href="#second" class="btn btn-primary btn-icon">
+                            <span class="btn-inner--text">走進卓逸</span>
+                            <span class="btn-inner--icon"><i data-feather="chevron-right"></i></span>
+                        </a>
+                        <!--<a href="https://webpixels.io/illustrations" class="btn btn-neutral btn-icon d-none d-lg-inline-block" target="_blank">See Illustrations</a>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="slice slice-lg pt-lg-6 pb-0 pb-lg-6 bg-section-secondary" id="second">
+        <div class="container">
+            <!-- Title -->
+            <!-- Section title -->
+            <div class="row mb-5 justify-content-center text-center">
+                <div class="col-lg-6">
+                    <!--<span class="badge badge-soft-success badge-pill badge-lg">
+                        卓逸投資
+                    </span>-->
+                    <h2 class=" mt-4">卓越優勢</h2>
+                    <div class="mt-2">
+                        <p class="lead lh-180"><strong>卓逸投資股份有限公司</strong> 憑藉其資金實力、專業團隊、廣泛的投資組合和良好的聲譽，成為市場上的領先者</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card -->
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body pb-5">
+                            <div class="pt-4 pb-5">
+                                <img src="assets/img/svg/illustrations/illustration-5.svg" class="img-fluid img-center" style="height: 150px;" alt="Illustration" />
+                            </div>
+                            <h5 class="h4 lh-130 mb-3">專業團隊</h5>
+                            <p class="text-muted mb-0">
+                                公司擁有一支高度專業的團隊，包括投資專家、分析師和交易員<br>
+                                具有豐富的經驗和深入的市場洞察力，能夠準確地評估投資機會和風險
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body pb-5">
+                            <div class="pt-4 pb-5">
+                                <img src="assets/img/svg/illustrations/illustration-6.svg" class="img-fluid img-center" style="height: 150px;" alt="Illustration" />
+                            </div>
+                            <h5 class="h4 lh-130 mb-3">風險控制</h5>
+                            <p class="text-muted mb-0">
+                                公司能夠實現風險分散，降低投資風險<br><br>
+                                根據市場環境的變化，靈活調整投資組合，以獲得最佳的投資回報
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body pb-5">
+                            <div class="pt-4 pb-5">
+                                <img src="assets/img/svg/illustrations/illustration-7.svg" class="img-fluid img-center" style="height: 150px;" alt="Illustration" />
+                            </div>
+                            <h5 class="h4 lh-130 mb-3">專業服務</h5>
+                            <p class="text-muted mb-0">
+                                公司一直秉持著誠信、專業和穩健的投資理念，贏得了眾多客戶的信任和支持<br>
+                                這使得公司能夠吸引更多的投資者和合作夥伴，進一步擴大業務規模
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="slice slice-lg bg-section-dark pt-5 pt-lg-8">
+        <!-- SVG separator -->
+        <div class="shape-container shape-line shape-position-top shape-orientation-inverse">
+            <svg width="2560px" height="100px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" viewBox="0 0 2560 100" style="enable-background:new 0 0 2560 100;" xml:space="preserve" class="">
+                <polygon points="2560 0 2560 100 0 100"></polygon>
+            </svg>
+        </div>
+        <!-- Container -->
+        <div class="container position-relative zindex-100">
+            <div class="col">
+                <div class="row justify-content-center">
+                    <div class="col-md-10 text-center">
+                        <div class="mt-4 mb-6">
+                            <h2 class="h1 text-white">
+                                核心價值觀
+                            </h2>
+                            <!--<h4 class="text-white mt-3">Create your own experience</h4>
+                            &lt;!&ndash; Play button &ndash;&gt;
+                            <a href="#" class="btn btn-primary btn-icon mt-4">Learn more</a>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="slice pt-0">
+        <div class="container position-relative zindex-100">
+            <div class="row">
+                <div class="col-xl-4 col-sm-6 mt-n7">
+                    <div class="card">
+                        <div class="d-flex p-5">
+                            <div>
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="pl-4">
+                                <h5 class="lh-130">專業研究和責任</h5>
+                                <p class="text-muted mb-0">
+                                    我們會選擇具有成長潛力的公司，並將風險控制在合理範圍內
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-sm-6 mt-sm-n7">
+                    <div class="card">
+                        <div class="d-flex p-5">
+                            <div>
+                                <i class="fas fa-th"></i>
+                            </div>
+                            <div class="pl-4">
+                                <h5 class="lh-130">依法合規和透明</h5>
+                                <p class="text-muted mb-0">
+                                    向客戶提供透明的交易報告和投資結果，讓客戶清楚了解投資運作和風險
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-12 col-sm-6 mt-xl-n7">
+                    <div class="card">
+                        <div class="d-flex p-5">
+                            <div>
+                                <i class="fas fa-puzzle-piece"></i>
+                            </div>
+                            <div class="pl-3">
+                                <h5 class="lh-130">客戶專屬投資方案</h5>
+                                <p class="text-muted mb-0">
+                                    我們會根據客戶的風險偏好、財務目標和投資時間表，訂製專屬的投資方案
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-sm-6">
+                    <div class="card">
+                        <div class="d-flex p-5">
+                            <div>
+                                <i class="fas fa-file-alt"></i>
+                            </div>
+                            <div class="pl-4">
+                                <h5 class="lh-130">教育與知識分享</h5>
+                                <p class="text-muted mb-0">
+                                    我們不僅會提供投資建議，還將向客戶提供相關的投資教育和市場資訊
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-sm-6">
+                    <div class="card">
+                        <div class="d-flex p-5">
+                            <div>
+                                <i class="fas fa-question-circle"></i>
+                            </div>
+                            <div class="pl-4">
+                                <h5 class="lh-130">風險控制客戶至上</h5>
+                                <p class="text-muted mb-0">
+                                    通過嚴格的風險管理和多元化的投資組合，來最大限度地保護客戶的資產
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-12 col-sm-6">
+                    <div class="card">
+                        <div class="d-flex p-5">
+                            <div>
+                                <i class="fas fa-tags"></i>
+                            </div>
+                            <div class="pl-3">
+                                <h5 class="lh-130">客戶利益為首要目標</h5>
+                                <p class="text-muted mb-0">
+                                    秉承著誠信、專業、勤奮和創新的理念，為客戶提供高效、全面的投資服務
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="slice slice-lg" id="three">
+        <div class="container">
+            <!-- Section title -->
+            <div class="row mb-5 justify-content-center text-center">
+                <div class="col-lg-6">
+                    <h2 class=" mt-4">企業理念</h2>
+                    <div class="mt-2">
+                        <p class="lead lh-180"><strong>卓逸投資股份有限公司</strong> <br>為客戶提供最佳的投資股票服務，與客戶攜手共創共贏的美好未來
+                            <br>
+                            我们希望成為客戶信賴的合作夥伴，共同實現投資目標</p>
+                    </div>
+                </div>
+            </div>
+            <div class="py-6">
+                <div class="row row-grid justify-content-between align-items-center">
+                    <div class="col-lg-5 order-lg-2">
+                        <h5 class="h3">創新能力</h5>
+                        <p class="lead my-4">
+                            公司擁有高度的創新能力，善於從客戶需求和市場變化中發現機遇，不斷推出新的投資產品和服務，為客戶創造更多的價值
+                        </p>
+                        <ul class="list-unstyled mb-0">
+                            <li class="py-2">
+                                <div class="d-flex align-items-center">
+                                    <div>
+                                        <div class="icon icon-shape bg-primary text-white icon-sm rounded-circle mr-3">
+                                            <i class="fas fa-file-invoice"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span class="h6 mb-0">了解客戶需求</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="py-2">
+                                <div class="d-flex align-items-center">
+                                    <div>
+                                        <div class="icon icon-shape bg-primary text-white icon-sm rounded-circle mr-3">
+                                            <i class="fas fa-store-alt"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span class="h6 mb-0">深究市場變化</span>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 order-lg-1">
+                        <div class="card mb-0 mr-lg-5">
+                            <div class="card-body p-2">
+                                <img alt="Image placeholder" src="assets/img/my/p1.jpg" class="img-fluid shadow rounded">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="py-6">
+                <div class="row row-grid justify-content-between align-items-center">
+                    <div class="col-lg-5">
+                        <h5 class="h3">專業服務</h5>
+                        <p class="lead my-4">
+                            多年來，公司一直秉持著誠信、專業和穩健的投資理念，贏得了眾多客戶的信任和支持。這使得公司能夠吸引更多的投資者和合作夥伴，進一步擴大業務規模
+                        </p>
+                        <ul class="list-unstyled mb-0">
+                            <li class="py-2">
+                                <div class="d-flex align-items-center">
+                                    <div>
+                                        <div class="icon icon-shape bg-primary text-white icon-sm rounded-circle mr-3">
+                                            <i class="fas fa-file-invoice"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span class="h6 mb-0">誠信</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="py-2">
+                                <div class="d-flex align-items-center">
+                                    <div>
+                                        <div class="icon icon-shape bg-primary text-white icon-sm rounded-circle mr-3">
+                                            <i class="fas fa-store-alt"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span class="h6 mb-0">專業</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="py-2">
+                                <div class="d-flex align-items-center">
+                                    <div>
+                                        <div class="icon icon-shape bg-primary text-white icon-sm rounded-circle mr-3">
+                                            <i class="fas fa-calendar"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span class="h6 mb-0">穩健</span>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card mb-0 ml-lg-5">
+                            <div class="card-body p-2">
+                                <img alt="Image placeholder" src="assets/img/my/p2.jpg" class="img-fluid shadow rounded">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="slice slice-lg" id="four">
+        <div class="container">
+            <!-- Section title -->
+            <div class="row mb-5 justify-content-center text-center">
+                <div class="col-lg-6">
+                    <h2 class=" mt-4">合作銀行</h2>
+                    <div class="mt-2">
+                        <p class="lead lh-180">擁有眾多合作銀行</p>
+                    </div>
+                </div>
+            </div>
+            <!--<div class="row">
+                <div class="col-lg-6">
+                    <span class="badge badge-primary badge-pill">Key features</span>
+                    <h5 class="lh-180 mt-4 mb-6">Quick is a premium HTML template that includes adaptable components and pages for various industries, plus new ones each month.</h5>
+                </div>
+            </div>-->
+            <!-- Features -->
+            <div class="row mx-lg-n4">
+                <!-- Features - Col 1 -->
+                <div class="col-lg-4 col-md-6 px-lg-4">
+                    <div class="card shadow-none">
+                        <div class="p-3 d-flex">
+                            <a href="https://www.bot.com.tw/tw/personal-banking" target="_blank">
+                                <img class="card-img z-depth-2" src="./assets/img/my/yh/twyh.png" alt="twyh">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 px-lg-4">
+                    <div class="card shadow-none">
+                        <div class="p-3 d-flex">
+                            <a href="https://www.hncb.com.tw/" target="_blank">
+                                <img class="card-img z-depth-2" src="./assets/img/my/yh/hnyh.png" alt="hnyh">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 px-lg-4">
+                    <div class="card shadow-none">
+                        <div class="p-3 d-flex">
+                            <a href="https://mybank.ubot.com.tw/ubot/#/home" target="_blank">
+                                <img class="card-img z-depth-2" src="./assets/img/my/yh/lbyh.png" alt="lbyh">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 px-lg-4">
+                    <div class="card shadow-none">
+                        <div class="p-3 d-flex">
+                            <a href="https://www.taishinbank.com.tw/TSB/personal/" target="_blank">
+                                <img class="card-img z-depth-2" src="./assets/img/my/yh/txyh.png" alt="txyh">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 px-lg-4">
+                    <div class="card shadow-none">
+                        <div class="p-3 d-flex">
+                            <a href="https://www.skbank.com.tw/" target="_blank">
+                                <img class="card-img z-depth-2" src="./assets/img/my/yh/xgyh.png" alt="xgyh">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 px-lg-4">
+                    <div class="card shadow-none">
+                        <div class="p-3 d-flex">
+                            <a href="https://www.yuantabank.com.tw/bank/" target="_blank">
+                                <img class="card-img z-depth-2" src="./assets/img/my/yh/ydyh.png" alt="ydyh">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Features - Col 3 -->
+                <div class="col-lg-4 col-md-6 px-lg-4">
+                    <div class="card shadow-none">
+                        <div class="p-3 d-flex">
+                            <a href="https://www.firstbank.com.tw/sites/fcb/personalhome" target="_blank">
+                                <img class="card-img z-depth-2" src="./assets/img/my/yh/ydyh1.png" alt="ydyh1">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 px-lg-4">
+                    <div class="card shadow-none">
+                        <div class="p-3 d-flex">
+                            <a href="https://bank.sinopac.com/sinopacBT/index.html" target="_blank">
+                                <img class="card-img z-depth-2" src="./assets/img/my/yh/ylyh.png" alt="ylyh">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 px-lg-4">
+                    <div class="card shadow-none">
+                        <div class="p-3 d-flex">
+                            <a href="https://www.esunbank.com/zh-tw/personal" target="_blank">
+                                <img class="card-img z-depth-2" src="./assets/img/my/yh/ysyh.png" alt="ysyh">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="slice slice-lg" id="five">
+        <div class="container">
+            <!-- Section title -->
+            <div class="row mb-5 justify-content-center text-center">
+                <div class="col-lg-6">
+                    <h2 class=" mt-4">聯絡我們</h2>
+                </div>
+            </div>
+            <div class="row row-grid justify-content-between align-items-center">
+                <div class="col-lg-5">
+                    <h3>臺中市西屯區至善里臺灣大道<br>三段686之2號6樓之3</h3>
+                    <p class="lead my-4">
+                        Email: <a href="#">support@webpixels.io</a><br>
+                        Tel: (555) 257-393
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3640.025986963808!2d120.63512387548684!3d24.170821378385902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34693df35ee0a3b1%3A0xc10f4d00cd94ed5a!2zNDA35Y-w54Gj5Y-w5Lit5biC6KW_5bGv5Y2A6Ie654Gj5aSn6YGT5LiJ5q61Njg26Jmf!5e0!3m2!1szh-TW!2shk!4v1716397783292!5m2!1szh-TW!2shk" width="100%" height="600" frameborder="0" style="border:0;" allowfullscreen="" class="rounded"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="position-relative" id="footer-main">
+        <div class="footer pt-lg-7 footer-dark bg-dark">
+            <!-- SVG shape -->
+            <div class="shape-container shape-line shape-position-top shape-orientation-inverse">
+                <svg width="2560px" height="100px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" viewBox="0 0 2560 100" style="enable-background:new 0 0 2560 100;" xml:space="preserve" class=" fill-section-secondary">
+                    <polygon points="2560 0 2560 100 0 100"></polygon>
+                </svg>
+            </div>
+            <!-- Footer -->
+            <div class="container pt-4">
+                <div class="row">
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <!-- Theme's logo -->
+                        <a href="index.html">
+                            <img alt="Image placeholder" src="assets/img/brand/light.svg" id="footer-logo">
+                        </a>
+                        <!-- Webpixels' mission -->
+                        <p class="mt-4 text-sm opacity-8 pr-lg-4">
+                            我們致力於不斷求知進取和追求卓越是公司成功和髮展壯大的內驅力。我們努力構建學習型企業，激勵每一位員工積極汲取新知識、奉行最佳實踐，不斷提昇自我、鑄造輝煌未來<br>
+                            卓逸投資股份有限公司的目標是成為行業的領先者，為客戶提供最佳的投資解決方案和服務。我們將繼續不斷學習和創新，以滿足客戶不斷變化的需求和市場的挑戰
+                        </p>
+                        <!-- Social -->
+                        <!--<ul class="nav mt-4">
+                            <li class="nav-item">
+                                <a class="nav-link pl-0" href="https://dribbble.com/webpixels" target="_blank">
+                                    <i class="fab fa-dribbble"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://github.com/webpixels" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.instagram.com/webpxs" target="_blank">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.facebook.com/webpixels" target="_blank">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                            </li>
+                        </ul>-->
+                    </div>
+                    <div class="col-lg-2 col-6 col-sm-4 ml-lg-auto mb-5 mb-lg-0">
+                        <h6 class="heading mb-3">企業介紹</h6>
+                        <ul class="list-unstyled">
+                            <li><a href="#first">關於我們</a></li>
+                            <li><a href="#second">卓越優勢</a></li>
+                            <li><a href="#three">企業理念</a></li>
+                            <li><a href="#four">合作銀行</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-6 col-sm-4 mb-5 mb-lg-0">
+                        <h6 class="heading mb-3">聯系方式</h6>
+                        <ul class="list-unstyled">
+                            <li><a href="#five">聯絡我們</a></li>
+                        </ul>
+                    </div>
+                    <!--<div class="col-lg-2 col-6 col-sm-4 mb-5 mb-lg-0">
+                        <h6 class="heading mb-3">Company</h6>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Community</a></li>
+                            <li><a href="#">Help center</a></li>
+                            <li><a href="#">Support</a></li>
+                        </ul>
+                    </div>-->
+                </div>
+                <hr class="divider divider-fade divider-dark my-4">
+                <div class="row align-items-center justify-content-md-between pb-4">
+                    <div class="col-md-6">
+                        <div class="copyright text-sm font-weight-bold text-center text-md-left">
+                            &copy; 2024 <a class="font-weight-bold" target="_blank">卓逸投資</a>. All rights reserved
+                        </div>
+                    </div>
+                    <!--<div class="col-md-6">
+                        <ul class="nav justify-content-center justify-content-md-end mt-3 mt-md-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    Terms
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    Privacy
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    Cookies
+                                </a>
+                            </li>
+                        </ul>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Core JS  -->
+    <script src="assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/libs/svg-injector/dist/svg-injector.min.js"></script>
+    <script src="assets/libs/feather-icons/dist/feather.min.js"></script>
+    <!-- Quick JS -->
+    <script src="assets/js/quick-website.js"></script>
+    <!-- Feather Icons -->
+    <script>
+        feather.replace({
+            'width': '1em',
+            'height': '1em'
+        })
+    </script>
+</body>
+
+</html>
